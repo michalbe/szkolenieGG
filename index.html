@@ -1,0 +1,60 @@
+<html>
+    <head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	    <title>Checkers</title>
+	    <style>
+            .field1 {
+                    background-color: #fff;
+                   
+            }
+           
+            .field2 {
+                    background-color: #000;
+                 
+            }
+            
+            .activeField {
+                    background-color: #0f0;
+                 
+            }
+       
+            #loader{
+                width: 100%;
+                height: 100%;
+                background-color:#000;
+                position: absolute;
+                top:0;
+                left:0;     
+                opacity: 0.8;
+                color: #ccc;
+            }
+            
+            #loader img {
+                margin: auto;
+                margin-top:200px;
+                margin-bottom: 20px;
+                display:block;
+                
+            }
+            
+	    </style>
+    </head>
+    <body style="margin:0;background-color:#999;text-align:center;">
+    <div id="loader">
+        <img src="loader.gif">
+        CONNECTING
+    </div>
+    
+    <script src="js/core.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/players.js"></script>
+    
+    <script src="js/board.js"></script>
+	<script src="js/checker.js"></script>
+    
+    <script src="js/network.js"></script>
+    
+	<script src="js/game.js"></script>
+
+    </body>
+</html>
